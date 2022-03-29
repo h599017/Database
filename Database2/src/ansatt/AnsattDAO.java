@@ -10,7 +10,7 @@ import database.Database;
 public class AnsattDAO {
 	
 	private static EntityManagerFactory emf = Persistence.createEntityManagerFactory("oblig");
-	
+	// this is my thing
 	public Ansatt finnAnsattMedId(int id) {
 		return Database.letID(id);
 	}
