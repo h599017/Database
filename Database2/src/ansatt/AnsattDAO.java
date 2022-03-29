@@ -21,7 +21,6 @@ public class AnsattDAO {
 	
 	public void skrivUtAnsatte() {
 		System.out.println(Database.getAnsatte());
-		
 	}
 	
 	public void stillingsEndring(int id, String nyStilling) {
